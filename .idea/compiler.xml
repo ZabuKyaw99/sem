@@ -9,6 +9,6 @@
         <module name="seMethods" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="10" />
   </component>
 </project>
