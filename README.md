@@ -1,4 +1,4 @@
-- Master Build Status [![Build Status](https://travis-ci.com/ZabuKyaw99/sem.svg?branch=master)](https://travis-ci.com/ZabuKyaw99/sem)
+- Master Build Status [![Build Status](https://travis-ci.com/ZabuKyaw99/sem.svg?branch=master?style=flat-square)](https://travis-ci.com/ZabuKyaw99/sem)
 - License [![LICENSE](https://img.shields.io/github/license/ZabuKyaw99/sem.svg?style=flat-square)](https://github.com/ZabuKyaw99/sem/blob/master/LICENSE)
 - Release [![Releases](https://img.shields.io/github/release/ZabuKyaw99/sem/all.svg?style=flat-square)](https://github.com/ZabuKyaw99/sem/releases)
-- Develop Build Status [![Build Status](https://travis-ci.com/ZabuKyaw99/sem.svg?branch=develop)](https://travis-ci.com/ZabuKyaw99/sem)
+- Develop Build Status [![Build Status](https://travis-ci.com/ZabuKyaw99/sem.svg?branch=develop?style=flat-square)](https://travis-ci.com/ZabuKyaw99/sem)
