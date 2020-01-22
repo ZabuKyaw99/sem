@@ -1,5 +1,7 @@
 package com.napier.sem;
 
+import com.mysql.cj.protocol.Resultset;
+
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -88,7 +90,32 @@ public class App {
             return null;
         }
     }
-
+    public Employee getEmployee(int ID)
+    {
+        try
+        {
+            Statement stmt = con.createStatement();
+            String strSelect = "SELECT emp_no, first_name, last_name" +
+                    "From employees" +
+                    "WHERE emp_no = "+ ID;
+            ResultSet rset = stmt.executeQuery(strSelect);
+            if(rset.next())
+            {
+                Employee emp = new Employee();
+                emp.emp_no = rset.getInt("emp_no");
+                emp.first_name = rset.getString("first_name");
+                emp.last_name = rset.getString("last_name");
+                return emp;
+            }
+            else
+                return null;
+        }catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed too get employee details");
+            return null;
+        }
+    }
     /**
      * Prints a list of employees.
      *
